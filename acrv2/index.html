@@ -15,7 +15,7 @@
     <b>
       <span style='flex:999' class='logo'><a class='deflink' href='/' style='color:black; font-size:24px;'><img src='/logo.png' style='width:24px;height:24px;'>&nbsp;&nbsp;WpH</a></span>
       <span class = 'headerlink' style='flex:1; text-align:right;padding-left:50vw'>
-        <a class='deflink' href='/acrv2'>RBR - ACRv2</a>
+        <a class='deflink' href='/acr'>RBR - ACR</a>
         <span class='spacer4'>&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <a class='deflink' href='https://discord.gg/ynyZ9GPCTY'>Discord</a>
         <span class='spacer4'>&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -59,6 +59,35 @@
       <img src='images/6.png'><br>
       Use acrv2 or some other name that works for you. 
       Click Create Fork. Proceed to step 3. 
+    </p>
+    <h3 id='step3'>Step 3: Deploying</h3>
+    <p>
+      Go back to the netlify tab, and click Deploy from git. Choose the github option, then click the search bar, and search for the git that you created in step 2. Click on it. 
+      <img src='images/7.png'><br>
+      Then, set the settings as follows:
+      <img src='images/8.png'><br>
+      
+      The site name can be random, but set the functions path to api, and click Add environment variables on the bottom. Add two variables, username and password. <span style='color:red'>MAKE SURE THAT username AND password ARE SPELLED EXACTLY AS SUCH, LOWERCASE, AND NO SPACES. The username and password are just your rocketbotroyale username/password. This info is only used to sign into Rocketbot for each coin redeem, it is not kept or retained, only stored in Netlify. If you do not do the above, the acr will not work. Check all the settings before clicking deploy. If it does not work, go to <a href='https://app.netlify.com/start/'>The netlify deploy page</a> and try step 3 again. </span><br>
+      Click deploy after checking all settings are correct. 
+
+      
+    </p>
+    <h3 id='step4'>Step 4: Watching it work</h3>
+    <p>
+      You should now be at a page about your deploy. Wait until the deploy finishes, it will look something like this. Notice it says your deploy is complete. If not, wait a bit until it does or gives an error. If and error occurs, go to <a href='https://app.netlify.com/start/'>The netlify deploy page</a> and try step 3 again. </span><br>
+    <img src='images/9.png'><br>
+    Now go to the left side panel, and click logs. Then, under logs click functions.  <br>
+    <img src='images/10.png'><br>
+    Click on the function acrv2. <br>
+
+    <br>
+    Wait approx. 2 hours, and come back, load the site.<br>
+    <img src='images/11.png'><br>
+    YOu should see something like the above. Click on the part that says "past 2 hours" in the picture above, (it should say real-time on your end) and change it to last 2 hours to see the logs. <br><br>
+    
+    The yellow messages are WARN messages, signaling an error or completion. If you see a pair of them together, with one saying Axios Error, then that request did not work. If you see a single one that says Process Completed then it worked that request. There should be one working message every 30 or 35 min. <br>
+    If you have any questions post them in the discord. 
+    
     </p>
     
   
