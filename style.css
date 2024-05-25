@@ -1,7 +1,14 @@
 body, p, button, img, input, div, h1, h2, h3, h4, textarea {
   font-family:'Proxima Nova'
 }
-
+code {
+  background-color:#101040;
+  color:lime;
+  font-family:monospace;
+  padding:3px;
+  margin:5px;
+  border-radius:3px;
+}
 .header {
   display:flex;
   position:sticky;
@@ -35,7 +42,8 @@ body, p, button, img, input, div, h1, h2, h3, h4, textarea {
 
 
 .main {
-  font-size:medium;
+  font-size:15px;
+  padding-left:20px;
   color:black
   
 }
