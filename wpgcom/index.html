@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>WinterPixel Helper</title>
+  <title>Winterpixelgames.com | WinterPixel Helper</title>
   <link href="/fonts.css" rel="stylesheet" type="text/css" />
   <link href="/style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -13,28 +13,41 @@
 <body>
   <div class="header"></div>
   <script src='/header.js'></script>
-  <div style='text-align:right;width:100%'>
-    <br>
-    <h3 style="font-size:20px;"><a style='background-color:#192841ff; padding:8px; margin:8px; border:none;border-radius:8px;color:white;' class='hiddena' href="https://winterpixelgames.com/" target="_blank">Open in a new tab <img style="width:24px; height:24px; filter:invert(1);vertical-align:middle" src='open.png'></a><span>&nbsp;&nbsp;&nbsp;</span></h3>
+  <br><br>
+  <div style='width:100%'>
+  <div style='padding-top: 5px; padding-bottom: 5px; text-align:right;width:100%; padding:0px; margin:0px; background-color:lightgray; border-top-left-radius: 20px; border-top-right-radius: 20px; display:flex'>
+    <p style='padding-left:50px; font-size:20px; text-decoration: none; flex:4; text-align:left;'>External site</p>
+    <p style='text-align:right; padding-left:25px; padding-right:25px; font-size:20px; text-decoration: none; flex:1;'>
+      
+      <!-- <img style="display:inline; width:20px;height:20px;padding-left:7px; padding-right:7px;" src="arrow.png">
+<img style="display:inline; width:20px;height:20px; -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: 'FlipH'; padding-left:7px; padding-right:7px;" src="arrow.png"> -->
+      
+      <button onclick="implantbrowser('reload')" class='nocss'><img style="display:inline; width:20px;height:20px;padding-left:7px; padding-right:7px;" src="/refresh.png" ></button></p>
+    
+    <p style='padding-left:25px; padding-top:4px; font-size:16px; text-decoration: none; flex:6; text-align:left; background-color:white;color:black;border: 3px solid black; border-radius:20px;'><span style="color:#22ee44; padding-left:0px; margin-left:0px;padding-right:0px; margin-right:0px;">https://</span><span style="color:black; padding-left:0px; margin-left:0px;padding-right:0px; margin-right:0px;">winterpixelgames.com</span><span style="color:gray; padding-left:0px; margin-left:0px;padding-right:0px; margin-right:0px;">/</span>
+    </p>
+    <h3 style="flex:4; text-align:right; font-size:20px;"><a style='background-color:#192841ff; padding:8px; margin:8px; border:none;border-radius:8px;color:white;' class='hiddena' href="https://winterpixelgames.com/" target="_blank">Open in a new tab <img style="width:24px; height:24px; filter:invert(1);vertical-align:middle" src='/open.png'></a><span>&nbsp;&nbsp;&nbsp;</span></h3>
   </div>
-  <br>
   <iframe id="iframe1" src="https://winterpixelgames.com/" style="width:100%; border:none;"></iframe>
   <script type="text/javascript">
   the_height = document.getElementById('iframe1').contentWindow.document.body.scrollHeight;
   document.getElementById('iframe1').height = `${Number(window.innerHeight)-50} px`
   </script>
+  </div>
 
 
   <br><br>
 
-
-
+  <h3>What is this?</h3>
+  <p>
+    Winterpixelgames.com displays real-time data from Rocketbotroyale, Gooberdash, Goobershot, Gooberroyale, and Moonrock miners, and shows them in an accesible, easy-to-use interface. It is an ongoing project, and will be updated regularly. As of 5/27/2024, only the Gooberdash stats tab has been set up. Made by Tank8k. 
+  </p>
   <span>
     Winterpixelhelper is not affiliated with or endorsed by WinterpixelGames Inc.
   <br><br>
     All relevant trademarks belong to their respective owners.
   </span>
-  <script src="script.js"></script>
+  <script src="/reload.js"></script>
 </body>
 
 </html>

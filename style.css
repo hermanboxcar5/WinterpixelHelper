@@ -72,3 +72,13 @@ card::-webkit-scrollbar {
   color:inherit;
   text-decoration:none;
 }
+
+
+.nocss {
+  cursor: pointer;
+  color:inherit;
+  background-color:inherit;
+  padding:none;
+  margin:none;
+  border:none;
+}
