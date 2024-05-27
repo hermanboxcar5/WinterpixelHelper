@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>RBR ACR |WpH</title>
+  <title>WinterPixel Helper</title>
   <link href="/fonts.css" rel="stylesheet" type="text/css" />
   <link href="/style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -13,8 +13,12 @@
 <body>
   <div class="header"></div>
   <script src='/header.js'></script>
-
-  <iframe id="iframe1" src="/acr/content.html" style="width:100%; border:none;"></iframe>
+  <div style='text-align:right;width:100%'>
+    <br>
+    <h3 style="font-size:20px;"><a style='background-color:#192841ff; padding:8px; margin:8px; border:none;border-radius:8px;color:white;' class='hiddena' href="https://winterpixelgames.com/" target="_blank">Open in a new tab <img style="width:24px; height:24px; filter:invert(1);vertical-align:middle" src='open.png'></a><span>&nbsp;&nbsp;&nbsp;</span></h3>
+  </div>
+  <br>
+  <iframe id="iframe1" src="https://winterpixelgames.com/" style="width:100%; border:none;"></iframe>
   <script type="text/javascript">
   the_height = document.getElementById('iframe1').contentWindow.document.body.scrollHeight;
   document.getElementById('iframe1').height = `${Number(window.innerHeight)-50} px`

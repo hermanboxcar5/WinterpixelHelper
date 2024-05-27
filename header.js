@@ -5,7 +5,7 @@ document.getElementsByClassName('header')[0].innerHTML=
     <span class = 'headerlink' style='flex:1; text-align:right;padding-left:50vw'>
       <a class='deflink' href='/acrv2'>RBR - ACRv2</a>
       <span class='spacer4'>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <a class='deflink' href='https://discord.gg/ynyZ9GPCTY'>Discord</a>
+      <a class='deflink' target="_blank" href='https://discord.gg/ynyZ9GPCTY'>Discord</a>
       <span class='spacer4'>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       <a class='deflink' href='/namechanger'>RBR Name Changer</a>
     </span>
